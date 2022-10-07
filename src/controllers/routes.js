@@ -1,10 +1,12 @@
 var formidable_improved = require('./utils/formidable_improved.js')
+var logger = require('./utils/logger.js')
 
 
 module.exports = function (express, app) {
     app.set('view engine', 'ejs');
 
     app.get('/', function (req, res) {
+        logger.compliantUser(req)
         res.render('index')
     })
 
