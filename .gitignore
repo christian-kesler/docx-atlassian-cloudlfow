@@ -1,4 +1,7 @@
+# folders
 /src/node_modules/
+
+# files
 /src/model/logs/index.txt
 /src/model/logs/compliantUsers.txt
 /src/model/logs/maliciousUsers.txt
