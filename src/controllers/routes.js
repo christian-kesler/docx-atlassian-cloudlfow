@@ -15,7 +15,6 @@ module.exports = function (express, app) {
     })
 
 
-
     // public dir
     app.use('/public', express.static('./views/public'));
 }

@@ -1,5 +1,6 @@
 # folders
 /src/node_modules/
+/testing
 
 # files
 /src/model/logs/index.txt
