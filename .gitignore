@@ -1,1 +1,5 @@
 /src/node_modules/
+/src/model/logs/index.txt
+/src/model/logs/compliantUsers.txt
+/src/model/logs/maliciousUsers.txt
+/src/model/logs/lostUsers.txt
