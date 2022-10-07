@@ -1,3 +1,6 @@
+var formidable_improved = require('./utils/formidable_improved.js')
+
+
 module.exports = function (express, app) {
     app.set('view engine', 'ejs');
 
@@ -5,6 +8,9 @@ module.exports = function (express, app) {
         res.render('index')
     })
 
+    app.post('/upload', function (req, res) {
+        formidable_improved.upload(req, '/../../model/uploads/', res.render('pages/uploaded'))
+    })
 
 
 

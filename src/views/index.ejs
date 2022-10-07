@@ -1,3 +1,6 @@
 <%- include('aggregate/start') %>
-    Here is your homepage
+    <form action="upload" method="POST" enctype="multipart/form-data">
+        <input type="file" name="filetoupload"><br>
+        <input type="submit">
+    </form>
     <%- include('aggregate/end') %>
