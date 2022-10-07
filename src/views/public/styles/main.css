@@ -1,0 +1,11 @@
+body {
+    font-family: monospace;
+    background-color: grey;
+}
+
+#content-wrapper {
+    margin-top: 80px;
+    margin-left: 18vw;
+    margin-right: 18vw;
+    text-align: center;
+}
